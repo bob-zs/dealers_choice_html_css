@@ -1,0 +1,104 @@
+
+:root {
+  --dark-green:#134644;
+  --light-green: #54c1b3;
+  --off-white: f4f4f4
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Gill Sans", sans-serif;
+  margin: 0;
+}
+
+body {
+  background-color: var(--dark-green);
+}
+
+header {
+  align-items: center;
+  background-color: var(--dark-green);
+  display: flex;
+  height: 115px;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+nav {
+  align-items: center;
+  display: flex;
+  gap: 21px;
+}
+
+.logo img {
+  height: 78px;
+}
+
+nav a {
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+nav .cart img {
+  height: 4rem;
+  margin: 1em;
+}
+
+
+
+#pitch {
+  background-color: var(--light-green);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pitchTextContatiner {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pitchCenter {
+  width: 50%;
+}
+
+.pitchTitle {
+  font-size: 3em;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.pitchDesc {
+  font-size: 1.5em;
+  margin-bottom: 0.5rem;
+}
+
+
+#pitch button {
+  background-color: inherit;
+  border: 1px solid white;
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 1em;
+}
+
+.pitchImg {
+  display: flex;
+  align-self: flex-end;
+  width: 45em;
+}
+
+footer {
+  align-items: center;
+  background-color: var(--dark-green);
+  color: white;
+  display: flex;
+  font-weight: bold;
+  height: 80px;
+  justify-content: center;
+}
